@@ -1,0 +1,31 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<link class="icon" rel="icon" type="image/png" href="img\whitelogo.jpg">
+	<link rel="stylesheet" href="../css/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<title>Science Bay - Logged In</title>
+</head>
+<body>
+	<div class="top">
+		<a href="/"><img class="logo" alt="Science Bay" src="..\img\whitelogo.jpg"></a>
+		<div class="login-navs">
+			<ul><a href="/">Home</a></ul>
+			<ul><a href="#show">Show</a></ul>
+			<ul><a href="#search">Search</a></ul>
+			<ul><a href="/">Log Out</a></ul>
+			<ul class="userlogo"><img src="../img/whitelogo.jpg" alt=""></ul>
+		</div>
+	</div>
+	<br><br>
+	<br><br>
+	<div class="login-success"><p>Successfully logged In...</p><p th:text="'Welcome back, '+${name}+'...!'"></p></div>
+	<footer>
+		<p>sciencebay2@gmail.com</p>
+		<div class="medialink">
+			<p><a href="https://www.instagram.com/science_bay/">Instagram</a></p>
+			<p><a href="https://www.youtube.com/channel/UCjxLPxYHuFb2e-IOc9G1jXQ">Youtube</a></p>
+			<p><a href="https://twitter.com/ScienceBay_">Twitter</a></p>
+		</div>
+	</footer>
+</body>
+</html>

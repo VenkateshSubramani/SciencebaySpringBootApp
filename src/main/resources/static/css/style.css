@@ -1,0 +1,321 @@
+body{
+	margin: auto;
+	/* background: #f0f2f5; */
+	background: white;
+}
+
+.icon{
+	border-radius: 50%;
+}
+
+.logo{
+	border-radius: 50%;
+	position: absolute;
+	box-shadow:  0 2px 15px -1px  rgb(0 0 0 / 50%);
+	border: 2px solid white;
+	margin: 9px 9px 9px 50px;
+	height: 110px;
+	width: 110px;
+}
+
+.logo:hover{
+	margin: 7px 7px 7px 48px;
+	height: 115px;
+	width: 115px;
+}
+
+#forget{
+	color: #9c41b3;
+	font-family: sans serif;
+	padding: 0px 11px;
+}
+
+.signinformContainer{
+	padding: 0px 0px 30px;
+    margin: 0px 15px 0px 0px;
+    border-radius: 2%;
+    background: #fcfcfc;
+    box-shadow: 0px 6px 15px 2px rgb(0 0 0 / 20%);
+    justify-content: space-around;
+}
+
+.loginformContainer{
+    padding: 0px 55px 0px 0px;
+    margin: 50px 150px 50px 0px;
+    border-radius: 2%;
+    background: #fcfcfc;
+    box-shadow: 0px 6px 15px 2px rgb(0 0 0 / 20%);
+    justify-content: space-around;
+}
+
+.loginformContainer input {
+    margin: 0px 9px;
+}
+
+.loginlogo{
+	border-radius: 50%;
+	position: relative;
+	box-shadow:  0px 6px 15px 2px  rgb(0 0 0 / 20%);
+	border: 2px solid white;
+	/* margin: -190px 50px 0px -470px; */
+	height: 450px;
+	width: 450px;
+}
+
+#noacc{
+	padding: 0px 10px;
+    margin: 16px 0px 11px;
+}
+
+.top{
+	background: #8907aa;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	display: flex;
+	box-shadow: 0 2px 15px -1px rgb(0 0 0 / 50%);
+}
+
+.moto{
+	position: fixed;
+	font-size: 40;
+	font-family: source sans pro; 
+	/* font-weight: bold; */
+	padding: 21px 0px 25px 200px;
+	margin: 0px 800px 0px auto;
+	color: white;
+	z-index: -1;
+}
+
+.navs{
+	display: flex;
+	flex-direction: left;
+	margin: auto 40px auto auto;
+	color: white;
+	font-size: 25;
+	font-family: garamond; 
+	font-weight: bold;
+}
+
+.login-navs{
+	display: flex;
+	flex-direction: right;
+	margin: auto 22px auto auto;
+	color: white;
+	font-size: 25;
+	font-family: garamond;
+	font-weight: bold;
+}
+
+.signin-navs{
+	display: flex;
+	flex-direction: right;
+	margin: auto 31px auto auto;
+	color: white;
+	font-size: 25;
+	font-family: garamond;
+	font-weight: bold;
+}
+
+.navs ul{
+	padding: 29px 40px 29px;
+}
+
+.login-navs ul{
+	padding: 0px 40px;
+}
+
+.signin-navs ul{
+	padding: 0px 40px;
+}
+
+.signin-navs h2{
+	justify-content: left;
+}
+
+.success{
+	text-align: center;
+	font-family: garamond;
+	padding: 50px 0px 100px 0px;
+	color: #57007c;
+	margin: 0;
+	font-size: 50;
+}
+
+.success h3{
+	padding: auto auto 100px;
+}
+
+.login-success{
+	text-align: center;
+	font-family: garamond;
+	padding: 50px 0px 200px 0px;
+	color: #57007c;
+	margin: 0;
+	font-size: 50;
+}
+
+a, a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d3d3d3;
+}
+
+.loginContainer{
+	/* display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 40px 435px 42px 100px;
+    font-family: garamond; */
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 50px 120px;
+    font-family: garamond;
+}
+
+/* .loginform form{
+	padding: 0px 45px 0px 5px;
+    margin: 79px 57px 66px 45px;
+} */
+
+.loginContainer h2{
+	font-family: sans serif;
+    font-size: 40;
+    margin: 9px;
+	padding: 0px;
+}
+
+.signupContainer{
+	display: flex;
+	justify-content: space-around;
+	padding: 0px;
+	margin: 50px 120px;
+	font-family: garamond;
+}
+
+.signupContainer h2{
+	font-family: sans serif;
+	font-size: 40;
+	margin: 9px;
+	padding: 0px;
+}
+
+input{
+	/* background: #f0f2f5; */
+	background: white;
+	/* border: 1px solid #e0e0e0; */
+	border: 1px solid #dddfe2;
+	/* border-bottom: 2px solid #57007c; */
+	border-radius: 4px;
+	padding: 6px 7px;
+	margin: 11px 9px 0px;
+	font-size: 18px;
+	font-family: garamond;
+	font-weight: bold;
+}
+
+.eid{
+	width: 330px;
+}
+
+input:focus{
+	outline: none;
+}
+
+footer{
+	background: #242729;
+	color: white;
+	font-family: garamond;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 40px;
+}
+
+footer p{
+	text-align: center;
+	margin: 0px 50px 0px 50px;
+	padding: 30px 50px;
+}
+
+.medialink{
+	display: flex;
+	justify-content: center;
+	font-family: garamond;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0px 450px;
+}
+
+.medialink p{
+	margin: 0px 0px 10px 0px;
+	padding: 0px 15px;
+}
+
+.intro{
+	position: relative;
+	padding: 50px 300px;
+	justify-content: center;
+	text-align: center;
+	font-family: garamond;
+	font-size: 40px;
+	/* box-shadow: 10px black; */
+}
+
+.intro h2{
+	font-family: source sans pro;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+label{
+	font-family: garamond;
+	font-weight: bold;
+	font-size: 20;
+}
+
+.btn{
+	background: #57007c;
+	border-radius: 11%;
+	font-family: garamond;
+	font-size: 20px;
+	color: white;
+}
+
+.btn:hover{
+	/* background: #9c41b3; */
+	color: white;
+}
+
+.ca{
+	background: #57007c;
+	padding: 6px;
+	font-weight: bold;
+	margin: 20px 10px;
+	border-radius: 5%;
+	font-family: garamond;
+	font-size: 20px;
+	color: white;
+}
+
+.ca:hover{
+	/* background: #9c41b3; */
+	color: white;
+}
+
+ul.userlogo{
+	margin: 12px 0px;
+	padding: 0px 0px;
+}
+
+.userlogo img{
+	position: relative;
+	padding: 0px;
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+}
